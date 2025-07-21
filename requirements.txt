@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+nltk
+transformers
+datasets
+scipy
+torch
+kafka-python
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
+pymongo
