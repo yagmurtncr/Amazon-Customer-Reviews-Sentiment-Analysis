@@ -7,29 +7,72 @@ __pycache__/
 *.pdb
 
 # Virtual environments
+.env
 .venv/
 env/
 venv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# VSCode ayarları
+# IDEs
 .vscode/
+.idea/
+*.swp
+*.swo
 
-# MacOS
+# OS files
 .DS_Store
-
-# Windows
 Thumbs.db
 ehthumbs.db
 
 # Logs
 *.log
 
-# Model ve büyük veri dosyaları (örnek)
-amazon_data/*.csv
-results/
+# Model files and data
 final_model/
 sentiment_model_distilbert/
+sentiment_model_distilbertt/
 sentiment_model/
+*.pth
+*.pt
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Data files
+amazon_data/*.csv
+*.csv
+*.json
+*.parquet
+
+# Results
+results/
+outputs/
+
+# Database data
+mongo-data/
+elasticsearch-data/
+kafka-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+*.cache
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Secrets
+secrets.json
+.secrets
+*.key

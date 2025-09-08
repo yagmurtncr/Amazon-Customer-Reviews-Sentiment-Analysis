@@ -15,3 +15,4 @@ uvicorn[standard]
 jinja2
 python-multipart
 pymongo
+elasticsearch==8.7.0
