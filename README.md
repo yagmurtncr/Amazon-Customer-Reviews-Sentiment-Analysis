@@ -127,14 +127,15 @@ Amazon_Ratings/
 │   ├── 📄 elasticsearch_init.py # ES initialization
 │   ├── 📄 csv_to_mongo.py     # Data import utility
 │   └── 📄 kafbat-config.yml   # Kafka UI configuration
-├── 📁 amazon_data/            # Raw data files
-├── 📁 final_model/            # Trained model artifacts
-├── 📁 sentiment_model_distilbert/ # Model checkpoints
-├── 📁 results/                # Evaluation outputs
+├── 📁 amazon_data/            # Raw data files (gitignored)
+├── 📁 sentiment_model_distilbert/ # Model checkpoints (gitignored)
+├── 📁 results/                # Evaluation outputs (gitignored)
 ├── 📁 templates/              # HTML templates
 ├── 📁 static/                 # Static assets (CSS, JS)
 └── 📄 requirements.txt        # Python dependencies
 ```
+
+> **Note**: `amazon_data/`, `sentiment_model_distilbert/`, and `results/` folders are gitignored due to large file sizes. These will be created when you run the data preparation and training scripts.
 
 ## ⚙️ Configuration
 

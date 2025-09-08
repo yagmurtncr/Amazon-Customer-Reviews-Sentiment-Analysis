@@ -26,7 +26,7 @@ ehthumbs.db
 # Logs
 *.log
 
-# Model files and data
+# Model files and checkpoints (BÜYÜK DOSYALAR!)
 final_model/
 sentiment_model_distilbert/
 sentiment_model_distilbertt/
@@ -36,14 +36,17 @@ sentiment_model/
 *.bin
 *.safetensors
 checkpoint-*/
+checkpoints/
 
-# Data files
-amazon_data/*.csv
+# Data files (BÜYÜK DOSYALAR!)
+amazon_data/
 *.csv
 *.json
 *.parquet
+*.xlsx
+*.xls
 
-# Results
+# Results and outputs
 results/
 outputs/
 
@@ -76,3 +79,11 @@ temp/
 secrets.json
 .secrets
 *.key
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Test files
+test_*.py
+*_test.py
